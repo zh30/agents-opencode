@@ -300,7 +300,7 @@ Each subagent follows this structure:
 ---
 name: subagent-name
 description: When this subagent should be invoked
-model: haiku  # Optional - specify which model to use (haiku/sonnet/opus)
+model: openrouter/horizon-beta  # Optional - specify which model to use
 tools: tool1, tool2  # Optional - defaults to all tools
 ---
 
